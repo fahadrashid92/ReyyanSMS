@@ -3,7 +3,6 @@ from flask import Flask,jsonify,render_template
 import requests
 import json
 import datetime
-import pyodbc
 
 
 app = Flask(__name__, template_folder='template')
